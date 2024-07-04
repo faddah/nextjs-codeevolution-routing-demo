@@ -7,7 +7,7 @@ function BarChart() {
 export default function Dashboard() {
 	return (
 		<>
-			<h1 style={{textDecoration: "underline"}}>Dashboard</h1>
+			<h1 style={{ textDecoration: "underline" }}>Dashboard</h1>
 			<BarChart />
 			<LineChart />
 		</>
