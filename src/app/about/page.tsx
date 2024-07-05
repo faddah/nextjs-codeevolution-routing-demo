@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+	title: 'About Our Comapny',
+	description: 'About Information on The Faddah Company',
+}
+
 export default function About(): JSX.Element {
 	return (
 		<div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "1rem" }}>
