@@ -1,4 +1,12 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: {
+		default: 'Our Blog',
+	},
+	description: 'The Faddah Company Blog',
+}
 
 export default function Blog(): JSX.Element {
 	return (
