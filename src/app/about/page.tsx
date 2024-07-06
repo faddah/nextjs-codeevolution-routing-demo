@@ -1,7 +1,10 @@
 import Image from "next/image";
+import { Metadata } from "next";
 
-export const metadata = {
-	title: 'About Our Comapny',
+export const metadata: Metadata = {
+	title: {
+		absolute: 'About Our Comapny | The Faddah Company',
+	},
 	description: 'About Information on The Faddah Company',
 }
 
