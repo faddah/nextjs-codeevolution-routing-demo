@@ -23,6 +23,7 @@ export default function HomePage() {
 				<li><Link href="/about">Our About Pages</Link></li>
 				<li><Link href="/products">Our Producs</Link></li>
 				<li><Link href="/blog">Our Blog</Link></li>
+				<li><Link href="/register">Register</Link></li>
 			</ul>
 		</div>
 	);
