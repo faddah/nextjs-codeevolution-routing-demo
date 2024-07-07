@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
 	title: {
@@ -24,5 +25,6 @@ export default function Blog(): JSX.Element {
 					priority
 				/>
 			</div>
-		</div>);
+			<Link href="/">Go Home</Link>
+		</div >);
 }
