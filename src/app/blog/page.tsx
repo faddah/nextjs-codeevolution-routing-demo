@@ -4,6 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: {
 		default: 'Our Blog',
+		template: '%s | The Faddah Company',
 	},
 	description: 'The Faddah Company Blog',
 }
